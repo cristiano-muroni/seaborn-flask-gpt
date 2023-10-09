@@ -1,0 +1,4 @@
+PORT=5000
+MODEL=gpt-3.5-turbo
+URL_GPT=https://api.openai.com/v1/chat/completions
+API_KEY="YOUR OPENAI API KEY"
