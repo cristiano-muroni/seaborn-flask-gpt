@@ -3,7 +3,7 @@ from utils.preprocess_prase import preprocess_input
 
 def matched_the_word_graph(userInput):
   # Definindo o padrão regex para procurar "exibir gráfico" ou "últimos meses"
-  default_display_graph = r'exibir grafico|graficos'
+  default_display_graph = r'exibir grafico|graficos|grafico'
   default_display_last_months = r'ultimos meses|ultimo mes'
   default_display_full_year = r'full year|ano todo|todos os meses|todo ano|ano cheio'
   default_display_scatter_plot = r'dispersão|disperçao|dispersao|dispercao'

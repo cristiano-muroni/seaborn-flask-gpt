@@ -7,7 +7,12 @@ from utils.manage_static import manage_static_folder
 import os
 
 gpt_routes_bp = Blueprint('gpt_routes', __name__)
+deploy_routes_bp = Blueprint('deploy_routes', __name__)
 
+@deploy_routes_bp.route('/', methods=['GET'])
+def deploy():
+    print("ok deu certo!")
+    return "Ok deu certo!"
 
 @gpt_routes_bp.route('/chatbot', methods=['POST'])
 def chatbot():
